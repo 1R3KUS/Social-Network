@@ -10,6 +10,7 @@ function App() {
       <Header />
       <Navbar />
       <Profile />
+      <h1>Hello</h1>
     </div>
   );
 }
