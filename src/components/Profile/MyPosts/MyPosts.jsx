@@ -2,7 +2,7 @@ import React from 'react';
 import s from './MyPosts.module.css'
 import Post from './Posts/Post';
 
-function MyPosts() {
+function MyPosts(props) {
   return (
     <div>
       My post
@@ -12,11 +12,12 @@ function MyPosts() {
       <div>
         <textarea></textarea>
         <button>Add Post</button>
+        <button>{props.buttonMessage}</button>
       </div>
       <div className={s.posts}>
-        <Post />
-        <Post />
-        <Post />
+        <Post message="Hi, this is my props" />
+        <Post message="This is another props" />
+        <Post message="And this is third props" />
       </div>
     </div>
   )

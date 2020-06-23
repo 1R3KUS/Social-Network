@@ -11,7 +11,7 @@ function Profile() {
       <div>
         ava + description
       </div>
-      <MyPosts />
+      <MyPosts buttonMessage="This is button in MyPost"/>
     </div>
   )
 }
