@@ -7,22 +7,19 @@ function Navbar() {
   return (
     <nav className={classes.nav}>
       <div className={classes.item}>
-        <a href='#s'>Profile</a>
+        <a href='/profile'>Profile</a>
       </div>
       <div className={classes.item}>
-        <a href='#s'>Message</a>
+        <a href='/dialogs'>Message</a>
       </div>
       <div className={classes.item}>
-        <a href='#s'>Profile</a>
+        <a href='/news'>News</a>
       </div>
       <div className={classes.item}>
-        <a href='#s'>News</a>
+        <a href='/music'>Music</a>
       </div>
       <div className={classes.item}>
-        <a href='#s'>Music</a>
-      </div>
-      <div className={classes.item}>
-        <a href='#s'>Settings</a>
+        <a href='/settings'>Settings</a>
       </div>
     </nav>)
 }
