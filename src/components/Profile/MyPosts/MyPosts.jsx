@@ -4,14 +4,15 @@ import Post from './Posts/Post';
 
 function MyPosts(props) {
   return (
-    <div>
-      My post
+    <div className={s.postsBlock}>
+      <h3>My post</h3>
       <div>
-        New post
-    </div>
-      <div>
-        <textarea></textarea>
-        <button>Add Post</button>
+        <div>
+          <textarea></textarea>
+        </div>
+        <div>
+          <button>Add Post</button>
+        </div>
         <button>{props.buttonMessage}</button>
       </div>
       <div className={s.posts}>
