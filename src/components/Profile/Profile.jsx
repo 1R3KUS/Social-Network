@@ -4,11 +4,11 @@ import MyPosts from './MyPosts/MyPosts.jsx';
 import ProfileInfo from './ProfileInfo/ProfileInfo';
 
 
-function Profile() {
+function Profile(props) {
   return (
     <div className={s.content}>
       <ProfileInfo />
-      <MyPosts buttonMessage="This is button in MyPost" />
+      <MyPosts buttonMessage="This is button in MyPost"  posts={props.posts}/>
     </div>
   )
 }
