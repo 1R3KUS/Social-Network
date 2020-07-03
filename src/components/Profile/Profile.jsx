@@ -8,7 +8,7 @@ function Profile(props) {
   return (
     <div className={s.content}>
       <ProfileInfo />
-      <MyPosts buttonMessage="This is button in MyPost"  posts={props.posts}/>
+      <MyPosts buttonMessage="This is button in MyPost"  posts={props.posts} addPost={props.addPost}/>
     </div>
   )
 }

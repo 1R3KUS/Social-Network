@@ -5,6 +5,23 @@
 
 .dialogsItems {
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(255, 0, 0);
+  
+}
+
+.dialog {
+  height: 40px;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.dialog a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .dialogsItems .active {
@@ -13,4 +30,13 @@
 
 .messages {
   padding: 10px;
+}
+
+.message {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.avaImg {
+  width: 30px;
 }
